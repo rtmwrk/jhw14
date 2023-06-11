@@ -67,9 +67,9 @@ class CallbackTest {
         //WebElement form = driver.findElement(By.cssSelector("[data-test-id=callback-form]"));
         WebElement form = driver.findElement(By.className("form"));
         // 1-й такой элемент - поле ввода фамилии и имени пользователя, заполняем его
-        form.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("@#$Иванов Петр");
+        form.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("Иванов Петр");
         // 2-й элемент - поле ввода номера телефона
-        form.findElement(By.cssSelector("[data-test-id=phone] input")).sendKeys("+79181234567");
+        form.findElement(By.cssSelector("[data-test-id=phone] input")).sendKeys("+791812345678");
         // 3-й элемент - чекбокс соглашения с условиями, ставим галочку
         form.findElement(By.cssSelector("[data-test-id=agreement]")).click();
         // 4-й элемент - кнопка отправки формы, нажимаем ее
