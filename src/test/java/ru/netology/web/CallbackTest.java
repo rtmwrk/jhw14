@@ -71,7 +71,7 @@ class CallbackTest {
         // 2-й элемент - поле ввода номера телефона
         form.findElement(By.cssSelector("[data-test-id=phone] input")).sendKeys("+79181234567");
         // 3-й элемент - чекбокс соглашения с условиями, ставим галочку
-        //form.findElement(By.cssSelector("[data-test-id=agreement]")).click();
+        form.findElement(By.cssSelector("[data-test-id=agreement]")).click();
         // 4-й элемент - кнопка отправки формы, нажимаем ее
         // И для кнопки отсутствует отдельный аттрибут типа "data-test-id" Отработаем элемент по классу
         driver.findElement(By.className("button")).click();
