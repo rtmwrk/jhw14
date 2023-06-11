@@ -69,9 +69,9 @@ class CallbackTest {
         // 1-й такой элемент - поле ввода фамилии и имени пользователя, заполняем его
         form.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("Иванов Петр");
         // 2-й элемент - поле ввода номера телефона
-        form.findElement(By.cssSelector("[data-test-id=phone] input")).sendKeys("+791812345678");
+        form.findElement(By.cssSelector("[data-test-id=phone] input")).sendKeys("+79181234567");
         // 3-й элемент - чекбокс соглашения с условиями, ставим галочку
-        form.findElement(By.cssSelector("[data-test-id=agreement]")).click();
+        //form.findElement(By.cssSelector("[data-test-id=agreement]")).click();
         // 4-й элемент - кнопка отправки формы, нажимаем ее
         // И для кнопки отсутствует отдельный аттрибут типа "data-test-id" Отработаем элемент по классу
         driver.findElement(By.className("button")).click();
