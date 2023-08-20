@@ -1,7 +1,7 @@
 # Тестирование веб-интерфейса заявки оформления дебетовой карты
 
 Используются инструменты:
--Java/Gradle;
+- Java/Gradle;
 - JUnit;
 - Selenium/Selenide;
 - CI/Github Actions
